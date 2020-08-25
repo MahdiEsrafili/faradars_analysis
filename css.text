@@ -1,0 +1,20 @@
+## extract list of topics (https://faradars.org/explore-topics):
+response.css('div.topic > a::attr(href)').extract() 
+
+## extract course lists:
+response.css('div.landing-course-item > table > tr > td > a::attr(href)').extract()
+
+
+##extract comments:
+response.css('ol.commentlist > li.thread-even > div.comment_container > div.comment-text > div.description > p ::text').extract()
+##extract rating of comment:
+response.css('ol.commentlist > li.thread-even > div.comment_container > div.comment-text > div.star-rating > span > strong ::text').extract()
+
+##extract how many buyes
+response.css('div.tabs-wrapper > div.entry-content >div>div>div>span>strong::text').extract()
+
+##extract price
+response.css('div.entry-summary>p.price::text').extract()
+
+#instructor name
+response.css('div.about-instructor > div.about-instructor-text > a> h5::text').extract()

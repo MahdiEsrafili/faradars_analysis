@@ -1,0 +1,3 @@
+# Analysing Faradars.org
+
+In this project, I'm going to analyse contents in Faradars.org (an educational site). I extracted some data including course price, teacher, comments, rating of users and etc using Scrapy crawler. the crawler file is -faradars.py, you can run it with scrapy runspider command. the repo is updating and i will release my analysis here soon. I ignored uploading data files to repo, but you can extract with spider file provided.
